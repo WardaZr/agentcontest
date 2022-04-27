@@ -12,20 +12,28 @@
             <ul class="nav nav-pills d-flex flex-column mb-auto">
                 </br>
                 <li class="px-4 mt-3" style="font-size: 14px; color: #C4C6FD">Menu</li>
-                <li class="btn bg-secondary nav-item p-1 text-start border-bottom">
-                    <a class="nav-link text-light" href="/admin/index"><i class="fas fa-home"></i>&nbsp;&nbsp;Beranda</a>
-                </li>
-                <li class="btn bg-secondary nav-item p-1 text-start border-bottom">
-                    <a class="nav-link text-light" href="/admin/dashboard"><i class="fas fa-chart-pie"></i>&nbsp;&nbsp;Dashboard</a>
-                </li>
-                <li class="btn bg-secondary nav-item p-1 text-start border-bottom">
-                    <a class="nav-link text-light" href="sadmin-peserta.php"><i class="fas fa-users"></i>&nbsp;&nbsp;Data Peserta</a>
-                </li>
-                <li class="btn bg-secondary nav-item p-1 text-start border-bottom">
-                    <a class="nav-link text-light" href="sadmin-penyelenggara.php"><i class="fas fa-user-tie"></i>&nbsp;&nbsp;Data Penyelenggara</a>
+                <li class="btn bg-secondary nav-item p-1 text-start">
+                    <a class="nav-link text-light" href="/admin/index" style="border-bottom: 1px #1E2F97 dotted">
+                        <i class="fas fa-home"></i>&nbsp;&nbsp;Beranda
+                    </a>
                 </li>
                 <li class="btn bg-secondary nav-item p-1 text-start">
-                    <a class="nav-link text-light" href="/login/logout"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;Log Out</a> 
+                    <a class="nav-link text-light" href="/admin/dashboard" style="border-bottom: 1px #1E2F97 dotted">
+                        <i class="fas fa-chart-pie"></i>&nbsp;&nbsp;Dashboard
+                    </a>
+                </li>
+                <li class="btn bg-secondary nav-item p-1 text-start">
+                    <a class="nav-link text-light" href="sadmin-peserta.php" style="border-bottom: 1px #1E2F97 dotted">
+                        <i class="fas fa-users"></i>&nbsp;&nbsp;Data Peserta
+                    </a>
+                </li>
+                <li class="btn bg-secondary nav-item p-1 text-start">
+                    <a class="nav-link text-light" href="sadmin-penyelenggara.php" style="border-bottom: 1px #1E2F97 dotted">
+                        <i class="fas fa-user-tie"></i>&nbsp;&nbsp;Data Penyelenggara
+                    </a>
+                </li>
+                <li class="btn bg-secondary nav-item p-1 text-start">
+                    <a class="nav-link text-light" href="/login/logout" style="border-bottom: 1px #1E2F97 dotted"><i class="fas fa-sign-out-alt"></i>&nbsp;&nbsp;Log Out</a> 
                 </li>
             </ul>
         </nav>
