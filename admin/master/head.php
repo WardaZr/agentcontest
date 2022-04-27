@@ -12,11 +12,11 @@
             height: 41em;
             overflow-y: hidden;
         }
-        .bg-secondary{
+        .btn-outline-primary:hover,.bg-secondary{
             background-color: #797EF6 !important;
             color: white;
         }
-        .bg-primary{
+        nav li a:hover, .bg-primary{
             background-color: #1E2F97 !important;
             color: white;
         }
@@ -39,6 +39,7 @@
         @media only screen and (max-width: 786px){
             .wrapper{
                 flex-direction: column;
+                height: fit-content;
             }
         }
     </style>
