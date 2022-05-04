@@ -12,6 +12,9 @@
             height: 38em;
             overflow-y: hidden;
         }
+        .bg-nav{
+            background-image: url("<?= base_url(); ?>/assets/bg-nav.png");
+        }
         .btn-outline-primary:hover,.bg-secondary{
             background-color: #797EF6 !important;
             color: white;
