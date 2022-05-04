@@ -1,10 +1,12 @@
 <body>
-    <header class="fixed-top d-block p-2 pt-3 bg-light shadow-sm">
+    <header class="bg-nav fixed-top d-block p-2 pt-3 bg-light shadow-sm">
         <h4>
-        <button  class="btn btn-light" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
-            <i class="fas fa-bars"></i>
-        </button >
-        Halaman Admin Agent Contest
+            <button  class="btn btn-light" onclick="myFunction()" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                <i class="fas fa-bars"></i>
+            </button >
+            <span style="text-shadow: -3px 0 #f8f9fa, 0 3px #f8f9fa, 3px 0 #f8f9fa, 0 -3px #f8f9fa">
+                Halaman Admin Agent Contest
+            </span> 
         </h4>
     </header>
     <div class="wrapper">
