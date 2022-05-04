@@ -2,44 +2,51 @@
 | Penyelenggara </title><head>
 <?php include 'master/sidebar.php'; ?>
 
+<div class="content-wrapper">
+     <div class="container">
+          <div class="card" style="margin-top: 50px;">
+               <div class="card-body">
+                    <p style="font-size:30px; color: #5F5F5F;">
+                        <i class="fas fa-user-tie"></i>   
+                        <b>Data Penyelenggara</b>
+                        <hr>
+                    </p>
 
-<h3 class="text-muted mb-3"><i class="fas fa-user-tie"></i>&nbsp;&nbsp;Data Penyelenggara </h3>
+                    <a href="#"type="button" class="btn bg-primary btn-sm mb-3" data-bs-toggle="modal" data-bs-target="#createplg">
+                        <i class="fas fa-plus-circle"></i>&nbsp;Input Data Penyelenggara
+                    </a> 
 
-<a href="#"type="button" class="btn bg-primary btn-sm mb-3" data-bs-toggle="modal" data-bs-target="#createplg">
-    <i class="fas fa-plus-circle"></i>&nbsp;Input Data Penyelenggara
-</a>
-
-<table class="table table-bordered align-middle">
-    <tr class="bg-light">
-        <th>No</th>
-        <th>Nama Admin</th>
-        <th>Asal Institusi</th> 
-        <th>Alamat</th>
-        <th>Kontak</th>
-        <th>Kegiatan</th>
-        <th></th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>PanitiaDinamik17</td>
-        <td>Universitas Pendidikan Indonesia</td>
-        <td>Jl. Dr. Setiabudi No.229, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154</td>
-        <td>
-            emailk@gmail.com</br>
-            +6281234567890
-        </td>
-        <td>Dies Natalis Keluarga Besar Ilmu Komputer Ke-17</td>
-        <td>
-            <div class="btn-group">
-                <a type="button" href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delplg">
-                    <i class="fas fa-trash-alt"></i>
-                </a>
-                <a type="button" href="#" class="btn bg-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editplg">
-                    <i class="fas fa-edit"></i>
-                </a>
-            </div>
-        </td>
-    </tr>
+                    <table class="table table-bordered align-middle">
+                        <tr class="bg-light">
+                            <th>No</th>
+                            <th>Nama Admin</th>
+                            <th>Asal Institusi</th> 
+                            <th>Alamat</th>
+                            <th>Kontak</th>
+                            <th>Kegiatan</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>PanitiaDinamik17</td>
+                            <td>Universitas Pendidikan Indonesia</td>
+                            <td>Jl. Dr. Setiabudi No.229, Isola, Kec. Sukasari, Kota Bandung, Jawa Barat 40154</td>
+                            <td>
+                                emailk@gmail.com</br>
+                                +6281234567890
+                            </td>
+                            <td>Dies Natalis Keluarga Besar Ilmu Komputer Ke-17</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a type="button" href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delplg">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                    <a type="button" href="#" class="btn bg-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editplg">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
 
 <!-- MODAL EDIT PENYELENGGARA -->
     <div class="modal fade" id="editplg" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -106,7 +113,11 @@
     </div>
 <!-- END MODAL -->
 
-</table>
+                    </table>
+                </div>
+          </div>
+     </div>
+</div> 
 
 <?php include 'master/footer.php'; ?>
 
