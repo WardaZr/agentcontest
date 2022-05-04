@@ -2,50 +2,57 @@
 | Peserta </title><head>
 <?php include 'master/sidebar.php'; ?>
 
+<div class="content-wrapper">
+     <div class="container">
+          <div class="card" style="margin-top: 50px;">
+               <div class="card-body">
+                    <p style="font-size:30px; color: #5F5F5F;">
+                        <i class="fas fa-users"></i>    
+                         <b>Data Peserta</b>
+                         <hr>
+                    </p>
 
-<h3 class="text-muted mb-3"><i class="fas fa-users"></i>&nbsp;&nbsp;Data Peserta </h3>
+                    <a href="#"type="button" class="btn bg-primary btn-sm mb-3" data-bs-toggle="modal" data-bs-target="#createpst">
+                        <i class="fas fa-plus-circle"></i>&nbsp;Input Data Peserta
+                    </a>
 
-<a href="#"type="button" class="btn bg-primary btn-sm mb-3" data-bs-toggle="modal" data-bs-target="#createpst">
-    <i class="fas fa-plus-circle"></i>&nbsp;Input Data Peserta
-</a>
-
-<table class="table table-bordered align-middle">
-    <tr class="bg-light">
-        <th>No</th>
-        <th>Nama Ketua</th>
-        <th>NIM/NIS</th>
-        <th>Email</th>
-        <th>Nama Tim</th>
-        <th>Anggota</th>
-        <th>Asal Institusi</th> 
-        <th>Tingkat</th>
-        <th></th>
-    </tr>
-    <tr>
-        <td>1</td>
-        <td>Putri Mushfani Inayah</td>
-        <td>1902810</td>
-        <td>putrimi@gmail.com</td>
-        <td>RPL Bageur</td>
-        <td>
-            Zukhruf Dinata</br>
-            Ainul Urwah</br>
-            Siti Seni</br>
-            Jennie Azzahra</br>
-        </td>
-        <td>Universitas Pendidikan Indonesia</td>
-        <td>Universitas</td>
-        <td>
-            <div class="btn-group">
-                <a type="button" href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delpst">
-                    <i class="fas fa-trash-alt"></i>
-                </a>
-                <a type="button" href="#" class="btn bg-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editpst">
-                    <i class="fas fa-edit"></i>
-                </a>
-            </div>
-        </td>
-    </tr>
+                    <table class="table table-bordered align-middle">
+                        <tr class="bg-light">
+                            <th>No</th>
+                            <th>Nama Ketua</th>
+                            <th>NIM/NIS</th>
+                            <th>Email</th>
+                            <th>Nama Tim</th>
+                            <th>Anggota</th>
+                            <th>Asal Institusi</th> 
+                            <th>Tingkat</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Putri Mushfani Inayah</td>
+                            <td>1902810</td>
+                            <td>putrimi@gmail.com</td>
+                            <td>RPL Bageur</td>
+                            <td>
+                                Zukhruf Dinata</br>
+                                Ainul Urwah</br>
+                                Siti Seni</br>
+                                Jennie Azzahra</br>
+                            </td>
+                            <td>Universitas Pendidikan Indonesia</td>
+                            <td>Universitas</td>
+                            <td>
+                                <div class="btn-group">
+                                    <a type="button" href="#" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#delpst">
+                                        <i class="fas fa-trash-alt"></i>
+                                    </a>
+                                    <a type="button" href="#" class="btn bg-primary btn-sm" data-bs-toggle="modal" data-bs-target="#editpst">
+                                        <i class="fas fa-edit"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
 
 <!-- MODAL EDIT PESERTA -->
     <div class="modal fade" id="editpst" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
@@ -178,8 +185,11 @@
         </div>
     </div>
 <!-- END MODAL -->
-
-</table>
+                    </table>
+                </div>
+          </div>
+     </div>
+</div> 
 
 <?php include 'master/footer.php'; ?>
 
